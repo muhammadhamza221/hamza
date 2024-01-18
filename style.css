@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.navbtn{
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: black;
+}
+.navbar-brand:hover{
+    color: royalblue;
+}
+
+
+.carousel-item img {
+        width: 100%;
+        height: 80vh;
+  }
+
+.me-2{
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.new-arrivals:hover{
+    text-decoration: underline red;
+}
+.me-2:hover {
+
+    border: 2px solid royalblue
+
+}
+
+.over-f{
+    overflow: hidden;
+}
+
+.card-first{
+    height: 60vh;
+}
+
+.card:hover .card-first {
+    transform: scale(0.9);
+
+  }
+
+.card:hover{
+    background-color: slateblue;
+}
+
+
+.card-body{
+    height: 60vh;
+}
+
+
+.main{
+    background: url(./lunchcopy.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+}
+.btn1{
+    height: 45px;
+    width: 50%;
+    border: none;
+    outline: none;
+    background-color: royalblue;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 40px;
+}
+.image-new{
+    height: 20vh;
+    width: 100px;
+}
+
+.pro-image{
+    height: 30vh;
+    width: 200px;
+}
+
+.pro-image:hover{
+    transform: rotateY(180deg);
+}
+
+.card-pro {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .pro-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+.Banner-Set_1{
+    width: 100%;
+    background-image: url(./lunchcopy.jpg);
+}
+
+
+.foot:hover{
+    color: blue;
+}
+
+.foote:hover{
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+
+
+
+
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .login-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .login-form {
+    margin-bottom: 20px;
+  }
